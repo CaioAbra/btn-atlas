@@ -61,6 +61,10 @@ body {
     background-color: #1e1e1e;
 }
 
+.btn {
+    transition: all 0.3s ease-in;
+}
+
 .btn-custom {
     color: var(--btn-text-color);
     border-radius: var(--btn-border-radius);
@@ -70,15 +74,12 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    transition: background-color 0.3s ease;
-
-
+    transition: all 0.3s ease;
     font-family: 'SpaceGrotesk-Bold';
     max-width: 234px;
     width: 100%;
     justify-content: center;
     font-size: 24px;
-
     line-height: 30.62px;
 }
 
