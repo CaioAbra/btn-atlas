@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Centralizado</title>
+    <link rel="stylesheet" href="./assets/lib/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="d-flex flex-column justify-content-center align-items-center vh-100">
+        <!-- Verificação de conta -->
+        <div class="account-balance mb-3">
+            <!-- <i class="fas fa-check-circle balance-icon"></i> -->
+            <img src="./assets/images/iconVerified.webp" class="balance-icon" srcset="">
+            <div class="">
+                <span class="account-type">Conta real</span>
+                <div class="balance-amount">
+                    R$ 7.795,20
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Botões -->
+        <button class="btn btn-custom btn-green">
+            Para cima <i class="fas fa-chevron-up"></i>
+        </button>
+
+        <button class="btn btn-custom btn-red mt-3">
+            Para baixo <i class="fas fa-chevron-down"></i>
+        </button>
+
+        <button class="btn btn-deposit mt-3">
+            Depósito <img src="./assets/images/iconDeposit.webp" alt="">
+        </button>
+
+        <!-- Cards -->
+        <div class="card-custom card-green mt-3">
+            <div class="card-header d-flex align-items-center">
+                <img src="./assets/images/EUR-USD.webp" alt="USA Flag" class="flag">
+                <span class="ml-2">EUR/USD</span>
+                <span class="time ml-auto">01:00</span>
+            </div>
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <span class="profit">+ R$ 860</span>
+                <i class="fas fa-chevron-up"></i>
+            </div>
+        </div>
+
+        <div class="card-custom card-red mt-3">
+            <div class="card-header d-flex align-items-center">
+                <img src="./assets/images/EUR-USD.webp" alt="USA Flag" class="flag">
+                <span class="ml-2">EUR/USD</span>
+                <span class="time ml-auto">01:00</span>
+            </div>
+            <div class="card-body d-flex justify-content-between align-items-center">
+                <span class="loss">- R$ 860</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/lib/jquery-3.7.1.min.js"></script>
+    <script src="./assets/javascript/index.js"></script>
+</body>
+
+</html>
