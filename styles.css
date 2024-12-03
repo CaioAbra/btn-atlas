@@ -89,6 +89,15 @@ body {
     line-height: 30.62px;
 }
 
+@media screen and (max-width:768px) {
+    .btn-custom {
+        max-width: 138px;
+        max-height: 24px;
+        font-size: 13.92px;
+        padding: 0;
+    }
+}
+
 .btn-green {
     background-color: var(--btn-bg-color-green);
 }
